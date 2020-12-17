@@ -2,7 +2,7 @@ module.exports = {
     aws_table_name: 'product',
     aws_local_config: {
         region: 'local',
-        endpoint: 'http://54.169.36.51:3000'
+        endpoint: 'http://APP_PRIVATE_IP_ADDRESS:3000'
       //Provide details for local configuration
     },
     aws_remote_config: {
