@@ -17,6 +17,8 @@
     "express-handlebars": "^5.2.0",
     "ip": "^1.1.5",
     "nodemon": "^2.0.6",
+    "os": "^0.1.1",
+    "public-ip": "^4.0.3",
     "randomstring": "^1.1.5"
   },
   "devDependencies": {
