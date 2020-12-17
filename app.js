@@ -1,10 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser')
 
+    
 const app = express();
 const port = 3000;
 const path = require('path');
 const exphbs = require('express-handlebars');
+const ip = require("ip");
 import UserRouter from "./product/product.router";
 const cors = require('cors')
 
@@ -36,5 +38,6 @@ app.use(function (req, res) {
 
 
 app.listen(port, () => {
+	//console.dir ( ip.address() );
     console.log('Server runing: ' + port);
 })
